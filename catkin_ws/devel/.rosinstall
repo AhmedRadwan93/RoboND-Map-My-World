@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/workspace/RoboND-Map-My-World/catkin_ws/devel/setup.sh

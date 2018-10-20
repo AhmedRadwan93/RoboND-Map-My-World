@@ -2622,28 +2622,6 @@
           <wrench>0 0 -12.8968 0 -0 0</wrench>
         </link>
       </model>
-      <model name='slam_bot'>
-        <pose frame=''>0.248728 0.522095 0.100002 -4e-06 0.000677 3.02083</pose>
-        <scale>1 1 1</scale>
-        <link name='left_wheel'>
-          <pose frame=''>0.230657 0.373189 0.100001 -1.3e-05 -0.793515 3.02084</pose>
-          <velocity>0.00019 0.0013 0.004788 -0.0131 0.001697 0.000775</velocity>
-          <acceleration>0.164663 2.61917 9.57612 1.99069 0.212755 -2.44284</acceleration>
-          <wrench>0.823314 13.0958 47.8806 0 -0 0</wrench>
-        </link>
-        <link name='right_wheel'>
-          <pose frame=''>0.266798 0.671002 0.100002 1e-06 -1.47436 3.02083</pose>
-          <velocity>8.8e-05 0.001325 0.000363 -0.013277 0.000727 0.000677</velocity>
-          <acceleration>0.203791 2.64068 0.728474 1.76604 1.20164 -2.62221</acceleration>
-          <wrench>1.01896 13.2034 3.64237 0 -0 0</wrench>
-        </link>
-        <link name='robot_footprint'>
-          <pose frame=''>0.248728 0.522095 0.100002 -4e-06 0.000677 3.02083</pose>
-          <velocity>0.000115 0.001103 0.002593 -0.014057 0.001364 0.000667</velocity>
-          <acceleration>0.136323 2.22559 5.17924 0.004601 0.01952 -1.63567</acceleration>
-          <wrench>3.43534 56.0849 130.517 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='trisphere_cycle'>
         <pose frame=''>3.10419 2.70716 -0.000501 0 1e-06 0.023436</pose>
         <scale>1 1 1</scale>

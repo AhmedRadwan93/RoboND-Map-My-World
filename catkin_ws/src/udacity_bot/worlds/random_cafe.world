@@ -1,99 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='random_cafe'>
-    <model name='cafe'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='main_floor'>
-          <pose frame=''>-0.4 -0.75 0.0948 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>9.38 22.63 0.19</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_1'>
-          <pose frame=''>-5.03 0.53 1.415 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.12 23.16 2.83</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_2'>
-          <pose frame=''>4.24 -0.31 1.415 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.12 21.48 2.83</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_3'>
-          <pose frame=''>-1.48 7.43 1.415 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>7.2 0.12 2.83</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_4'>
-          <pose frame=''>2.09 8.9 1.435 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.12 3.05 2.87</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_5'>
-          <pose frame=''>3.155 10.4 1.435 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>2.13 0.12 2.87</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_6'>
-          <pose frame=''>0.615 -10.98 1.415 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>7.36 0.15 2.83</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_7'>
-          <pose frame=''>-4.62 -10.98 1.415 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.93 0.15 2.83</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='wall_8'>
-          <pose frame=''>-3.61 -10.98 2.69 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>1.09 0.15 0.28</size>
-            </box>
-          </geometry>
-        </collision>
-        <collision name='coke'>
-          <pose frame=''>-4.385 0.26 0.95 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>1.03 1.03 1.52</size>
-            </box>
-          </geometry>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://cafe/meshes/cafe.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-      </link>
-      <pose frame=''>0.805513 3.10206 -0.055556 0 -0 0</pose>
-    </model>
+  <model name='Untitled'>
     <model name='cafe_table'>
       <static>1</static>
       <link name='link'>
@@ -129,7 +36,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1.78364 -4.21115 -0.055556 0 -0 0</pose>
+      <pose frame=''>-2.21803 0.105071 -0.00217 0 -0 0</pose>
     </model>
     <model name='cafe_table_0'>
       <static>1</static>
@@ -166,7 +73,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-2.12563 0.700843 -0.055556 0 -0 0</pose>
+      <pose frame=''>0.901135 0.689191 -0.00217 0 -0 0</pose>
     </model>
     <model name='cafe_table_1'>
       <static>1</static>
@@ -203,7 +110,7 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>0.61511 -1.91015 -0.055556 0 -0 0</pose>
+      <pose frame=''>0.394225 -1.22459 -0.00217 0 -0 0</pose>
     </model>
     <model name='cafe_table_2'>
       <static>1</static>
@@ -240,10 +147,84 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>1.6228 1.30819 -0.055556 0 -0 0</pose>
+      <pose frame=''>-2.75332 3.84748 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='cafe_table_3'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='surface'>
+          <pose frame=''>0 0 0.755 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.913 0.913 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <collision name='column'>
+          <pose frame=''>0 0 0.37 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.042 0.042 0.74</size>
+            </box>
+          </geometry>
+        </collision>
+        <collision name='base'>
+          <pose frame=''>0 0 0.02 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.56 0.56 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-0.146661 3.48754 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='cafe_table_4'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='surface'>
+          <pose frame=''>0 0 0.755 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.913 0.913 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <collision name='column'>
+          <pose frame=''>0 0 0.37 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.042 0.042 0.74</size>
+            </box>
+          </geometry>
+        </collision>
+        <collision name='base'>
+          <pose frame=''>0 0 0.02 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.56 0.56 0.04</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-4.11406 2.68437 -0.00217 0 -0 0</pose>
     </model>
     <model name='husky'>
-      <pose frame=''>-0.603463 2.49539 0.444444 0 -0 0</pose>
+      <pose frame=''>0.881619 1.92915 0.49783 0 -0 0</pose>
       <link name='base_link'>
         <collision name='collision'>
           <pose frame=''>0 0 0.1 0 -0 0</pose>
@@ -620,7 +601,7 @@
         <torque>35</torque>
       </plugin>
     </model>
-    <model name='nist_maze_wall_240'>
+    <model name='nist_maze_wall_240_2'>
       <static>1</static>
       <link name='nist__maze_wall_240_link'>
         <pose frame=''>0 0 0 0 -0 0</pose>
@@ -641,7 +622,513 @@
           </geometry>
         </visual>
       </link>
-      <pose frame=''>-1.17351 -2.68391 -0.055556 0 -0 0</pose>
+      <pose frame=''>0.394062 -2.9236 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>1.59915 -2.93778 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>1.80866 4.23978 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone_0'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>0.620257 4.22574 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone_1'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-0.540024 4.20633 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone_2'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-1.70935 4.19341 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone_3'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-2.90186 4.2079 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone_4'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-4.04892 4.18095 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_3_clone_5'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.21445 4.17031 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_4'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-4.40048 -2.90293 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_5'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.56261 -2.92117 -0.00217 0 -0 0</pose>
+    </model>
+    <model name='nist_maze_wall_240_6'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>2.94116 -1.71262 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>2.96218 -0.513947 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_0'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>2.98175 0.683586 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_1'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>3.00083 1.87227 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_2'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>3.00085 3.05405 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_3'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>2.98994 4.25094 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_4'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.49122 -1.6909 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_5'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.47287 -0.500188 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_6'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.45769 0.701788 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_7'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.43934 1.88593 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_8'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.4242 3.08128 -0.00217 0 -0 1.55586</pose>
+    </model>
+    <model name='nist_maze_wall_240_6_clone_9'>
+      <static>1</static>
+      <link name='nist__maze_wall_240_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://nist_maze_wall_240/meshes/nist_maze_wall_240.dae</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+      <pose frame=''>-5.42626 4.21011 -0.00217 0 -0 1.55586</pose>
     </model>
     <model name='oak_tree'>
       <static>1</static>
@@ -688,7 +1175,7 @@
           </material>
         </visual>
       </link>
-      <pose frame=''>1.19704 6.38856 -0.055556 0 -0 0</pose>
+      <pose frame=''>-1.84238 -2.52295 0.011719 0 -0 0</pose>
     </model>
     <model name='simple_arm'>
       <link name='arm_base'>
@@ -1047,7 +1534,7 @@
           <use_parent_model_frame>1</use_parent_model_frame>
         </axis>
       </joint>
-      <pose frame=''>1.44578 -5.18983 -0.055556 0 -0 0</pose>
+      <pose frame=''>-4.51012 -0.753511 -0.00217 0 -0 0</pose>
     </model>
     <static>0</static>
     <allow_auto_disable>1</allow_auto_disable>

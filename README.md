@@ -21,3 +21,5 @@ chmod 7 src/udacity_bot/ShellScripts/start_mapping_custom.sh
 src/udacity_bot/ShellScripts/start_mapping_custom.sh
 ```
 The robot is controlled from the teleop node in the teleop terminal shell, which will be the second shell to start up.
+
+The RTAB-Map database for the kitchen mapping exercise in the writeup can be found [here](https://drive.google.com/open?id=1psGbrOJL_c96xulBWIDowe8UYOrSxOuq)
